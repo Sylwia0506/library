@@ -39,13 +39,13 @@ Before running the application, ensure you have the following installed:
 1. **Clone the Repository**
 
    ```bash
-   git clone 
+   git clone https://github.com/Sylwia0506/library.git
    cd library
    ```
    
    2. **Directory Structure Overview**
 
-       ```
+       ```bash
           library/
         ├── api/                     # Flask API service
         │   ├── Dockerfile
@@ -65,7 +65,7 @@ Before running the application, ensure you have the following installed:
         │   └── docker-compose.yml
         ├── Makefile                 # Make commands for building, starting, and testing containers
         └── README.md                # This file
-    ```
+     ```
    
 ## Configuration
 
@@ -114,7 +114,6 @@ The Django backend uses Celery for background tasks (e.g., updating book statuse
     ```yml
     celery:
       command: celery -A config worker -l info
-      ...
     ```
   
 - Debugging Celery Tasks:
