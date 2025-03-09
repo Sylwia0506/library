@@ -43,28 +43,28 @@ Before running the application, ensure you have the following installed:
    cd library
    ```
    
-   2. **Directory Structure Overview**
+2. **Directory Structure Overview**
 
-
-          library/
-        ├── api/                     # Flask API service
-        │   ├── Dockerfile
-        │   ├── requirements.txt
-        │   └── src/
-        │       └── ...              # Flask application code
-        ├── backend/                 # Django backend service
-        │   ├── config/              # Django settings, urls, wsgi, celery config, etc.
-        │   ├── library_app/         # Django app containing models, views, serializers, tasks, etc.
-        │   ├── Dockerfile
-        │   ├── manage.py
-        │   ├── requirements.txt
-        │   └── ... 
-        ├── db/                      # Database initialization scripts
-        │   └── init.sql
-        ├── docker/                  # Docker Compose and additional docker configs
-        │   └── docker-compose.yml
-        ├── Makefile                 # Make commands for building, starting, and testing containers
-        └── README.md                # This file
+     ```
+       library/
+     ├── api/                     # Flask API service
+     │   ├── Dockerfile
+     │   ├── requirements.txt
+     │   └── src/
+     │       └── ...              # Flask application code
+     ├── backend/                 # Django backend service
+     │   ├── config/              # Django settings, urls, wsgi, celery config, etc.
+     │   ├── library_app/         # Django app containing models, views, serializers, tasks, etc.
+     │   ├── Dockerfile
+     │   ├── manage.py
+     │   ├── requirements.txt
+     │   └── ... 
+     ├── db/                      # Database initialization scripts
+     │   └── init.sql
+     ├── docker/                  # Docker Compose and additional docker configs
+     │   └── docker-compose.yml
+     ├── Makefile                 # Make commands for building, starting, and testing containers
+     └── README.md                # This file
 
    
 ## Configuration
