@@ -45,7 +45,7 @@ Before running the application, ensure you have the following installed:
    
    2. **Directory Structure Overview**
 
-       ```bash
+
           library/
         ├── api/                     # Flask API service
         │   ├── Dockerfile
@@ -65,7 +65,7 @@ Before running the application, ensure you have the following installed:
         │   └── docker-compose.yml
         ├── Makefile                 # Make commands for building, starting, and testing containers
         └── README.md                # This file
-     ```
+
    
 ## Configuration
 
